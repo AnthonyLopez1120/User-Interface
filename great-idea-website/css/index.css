@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	border:solid red 1px;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .wrapper{
-	padding:15px 300px;
+	padding:15px 400px;
 }
 
 nav{
@@ -118,7 +118,7 @@ a{
 .logoContainer{
 	display:inline-block;
 	position: absolute;
-	left:885px;
+	left:700px;
 	top:-15px;
 	
 }
@@ -129,12 +129,8 @@ a{
 
 
 .top-section h1{
-	
-	border:solid green;
 	text-align: center;
 	font-size: 75px;
-	
-
 }
 
 .innovation{
@@ -158,3 +154,22 @@ a{
 	top:50px;
 }
 
+.mid-section{
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+	margin-top: 15%;
+	position: relative;
+	width:100%;
+}
+
+.mid-section .features, .about{
+	padding:25px 0;
+	display: inline-block;
+	width:48%;
+}
+
+.services, .product, .vision{
+	display: inline-block;
+	width: 33%;
+	padding:25px 0;
+}
