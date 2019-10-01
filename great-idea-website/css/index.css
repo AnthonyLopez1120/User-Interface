@@ -72,7 +72,8 @@ h1, h2, h3, h4, h5 {
 
 nav{
 	position: relative;
-	height: auto;
+	text-align: center;
+	padding-bottom: 25px;
 	display: inline-block;
 	
 
@@ -117,14 +118,15 @@ a{
 
 .logoContainer{
 	display:inline-block;
-	position: absolute;
-	left:700px;
-	top:-15px;
+	position: relative;
+	left:350px;
+	top:10px;
+
 	
 }
 
 .top-section{
-	padding:15px;
+	padding:85px 0;
 }
 
 
@@ -143,29 +145,29 @@ a{
 	left:33%;
 	width: 35%;
 	text-align: center;
-	padding: 15px;
+	padding: 5px 15px;
 	border:solid black 1px;
 	
 }
 
 .topImg{
-	position: absolute;
-	right: 25%;
-	top:50px;
+	position: relative;
+	left: 55%;
+	bottom:320px;
 }
 
 .mid-section{
 	border-top: solid black 1px;
 	border-bottom: solid black 1px;
-	margin-top: 15%;
 	position: relative;
 	width:100%;
+	
 }
 
 .mid-section .features, .about{
 	padding:25px 0;
 	display: inline-block;
-	width:48%;
+	width:49%;
 }
 
 .services, .product, .vision{
@@ -186,3 +188,12 @@ a{
 	margin:35px 0;
 	text-align: center;
 }
+
+header{
+	width:900px;
+	background: lightblue;
+	position: fixed;
+	z-index: 1;
+
+}
+
