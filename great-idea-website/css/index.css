@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .wrapper{
-	padding:15px 40px;
+	padding:15px 300px;
 }
 
 nav{
@@ -88,38 +88,73 @@ a{
 .a2{
 	position: relative;
 	left:50px;
-	border:solid green 3px;
+
 }
 .a3{
 	position: relative;
 	left:100px;
-	border:solid green 3px;
+	
 }
 
 .a4{
 	position: relative;
 	left:150px;
-	border:solid green 3px;
+
 }
 
 .a5{
 	position: relative;
 	left:200px;
-	border:solid green 3px;
+
 }
 
 .a6{
 	position: relative;
 	left:250px;
-	border:solid green 3px;
+	
 }
 
 
 .logoContainer{
 	display:inline-block;
 	position: absolute;
-	left:210%;
+	left:885px;
 	top:-15px;
 	
+}
+
+.top-section{
+	padding:15px;
+}
+
+
+.top-section h1{
+	
+	border:solid green;
+	text-align: center;
+	font-size: 75px;
+	
+
+}
+
+.innovation{
+	padding-top: 5%;
+	width: 50%;
+}
+
+.button{
+	position: relative;
+	left:33%;
+	width: 35%;
+	text-align: center;
+	padding: 15px;
+	border:solid black 1px;
+	
+}
+
+.topImg{
+	position: absolute;
+	right: 25%;
+	top:50px;
 }
 
