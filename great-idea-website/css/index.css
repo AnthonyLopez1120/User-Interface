@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -52,10 +53,10 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+/* html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
-}
+} */
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
@@ -64,3 +65,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.wrapper{
+	padding:15px 400px;
+}
+
+nav{
+	position: relative;
+	text-align: center;
+	padding-bottom: 25px;
+	display: inline-block;
+	
+
+}
+
+a{	
+	text-align: center;
+	text-decoration: none;
+	color:grey;
+	margin:0 auto;
+}
+
+.a2{
+	position: relative;
+	left:50px;
+
+}
+.a3{
+	position: relative;
+	left:100px;
+	
+}
+
+.a4{
+	position: relative;
+	left:150px;
+
+}
+
+.a5{
+	position: relative;
+	left:200px;
+
+}
+
+.a6{
+	position: relative;
+	left:250px;
+	
+}
+
+
+.logoContainer{
+	display:inline-block;
+	position: relative;
+	left:350px;
+	top:10px;
+
+	
+}
+
+.top-section{
+	padding:85px 0;
+}
+
+
+.top-section h1{
+	text-align: center;
+	font-size: 75px;
+}
+
+.innovation{
+	padding-top: 5%;
+	width: 50%;
+}
+
+.button{
+	position: relative;
+	left:33%;
+	width: 35%;
+	text-align: center;
+	padding: 5px 15px;
+	border:solid black 1px;
+	
+}
+
+.topImg{
+	position: relative;
+	left: 55%;
+	bottom:320px;
+}
+
+.mid-section{
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+	position: relative;
+	width:100%;
+	
+}
+
+.mid-section .features, .about{
+	padding:25px 0;
+	display: inline-block;
+	width:49%;
+}
+
+.services, .product, .vision{
+	display: inline-block;
+	width: 33%;
+	padding:25px 0;
+}
+
+.bottom-section{
+	padding: 25px 0;
+}
+
+.bottom-section p{
+	margin:15px 0;
+}
+
+.copyright{
+	margin:35px 0;
+	text-align: center;
+}
+
+header{
+	width:900px;
+	background: lightblue;
+	position: fixed;
+	z-index: 1;
+
+}
+
+p{
+	font-family: 'Russo One', sans-serif;
+}
